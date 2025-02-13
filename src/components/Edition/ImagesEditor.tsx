@@ -13,7 +13,7 @@ const ImagesEditor: React.FC = () => {
 
   // Charger les données depuis le backend
   useEffect(() => {
-    fetch("mathilde-production-f1b4.up.railway.app/data")
+    fetch("mathilde-production-f1b4.up.railway.app:5000/data")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
@@ -44,7 +44,7 @@ const ImagesEditor: React.FC = () => {
     const formData = new FormData();
     formData.append("image", image);
 
-    const response = await fetch("mathilde-production-f1b4.up.railway.app/upload", {
+    const response = await fetch("mathilde-production-f1b4.up.railway.app:5000/upload", {
       method: "POST",
       body: formData,
     });
@@ -63,7 +63,7 @@ const ImagesEditor: React.FC = () => {
   return (
     <div className="fondEdit">
       <form onSubmit={handleSubmit((updatedData) => {
-        fetch("mathilde-production-f1b4.up.railway.app/save-json", {
+        fetch("mathilde-production-f1b4.up.railway.app:5000/save-json", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(updatedData),
