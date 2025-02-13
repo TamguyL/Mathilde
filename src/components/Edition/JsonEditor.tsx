@@ -15,7 +15,7 @@ const JsonEditor: React.FC = () => {
   // Charger les données depuis le backend
   useEffect(() => {
 
-    fetch("mathilde-production-f1b4.up.railway.app:5000/data")
+    fetch("https://mathilde-production-f1b4.up.railway.app/data")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
@@ -31,7 +31,7 @@ const JsonEditor: React.FC = () => {
   // Fonction pour enregistrer les modifications
   const onSubmit = async (updatedData: any) => {
     try {
-        const response = await fetch("mathilde-production-f1b4.up.railway.app:5000/save-json", {
+        const response = await fetch("https://mathilde-production-f1b4.up.railway.app/save-json", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedData),
