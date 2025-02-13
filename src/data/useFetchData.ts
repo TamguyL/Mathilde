@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 // Fonction générique pour récupérer les données
 async function fetchData<T>(): Promise<T> {
-    const response = await fetch('./data.json');
+    const response = await fetch('https://mathilde-production-f1b4.up.railway.app/data.json');
     if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
     }
