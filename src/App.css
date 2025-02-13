@@ -1,12 +1,12 @@
 .fondSaumon {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 172, 141, 0.8))), url("./image/lin.jpg");
-    background-image: linear-gradient(rgba(247, 172, 141, 0.8)), url("./image/lin.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 172, 141, 0.8))), url("/image/lin.jpg");
+    background-image: linear-gradient(rgba(247, 172, 141, 0.8)), url("/image/lin.jpg");
     z-index: 100;
 }
 
 .fondBleu {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(69, 114, 142, 0.8))), url("image/peinture.jpg");
-    background-image: linear-gradient(rgba(69, 114, 142, 0.8)), url("image/peinture.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(69, 114, 142, 0.8))), url("/image/peinture.jpg");
+    background-image: linear-gradient(rgba(69, 114, 142, 0.8)), url("/image/peinture.jpg");
     background-size: cover;
 }
 
@@ -18,8 +18,8 @@
 }
 .card1 {
     border: 10px solid #FFBE5C;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(160, 194, 214, 0.85))), url("image/papier.jpg");
-    background-image: linear-gradient(rgba(160, 194, 214, 0.85)), url("image/papier.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(160, 194, 214, 0.85))), url("/image/papier.jpg");
+    background-image: linear-gradient(rgba(160, 194, 214, 0.85)), url("/image/papier.jpg");
     background-size: cover;
     background-color: #BAD0DE;
     color: #000;
