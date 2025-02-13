@@ -1,0 +1,177 @@
+{
+  "menuValue": [
+    {
+      "menu": "Présentation"
+    },
+    {
+      "menu": "Vidéo"
+    },
+    {
+      "menu": "Design"
+    },
+    {
+      "menu": "Engagement"
+    },
+    {
+      "menu": "Contact"
+    }
+  ],
+  "presentationData": {
+    "photo": "uploads/1738831097575-profils.jpg",
+    "soustitre": " Architecte Visuel",
+    "accroche": "Je vous invite à explorer mes passions, mes sources et inspirations.",
+    "titre": "Mon parcours",
+    "texte": "<p>En huit ans, j’ai évolué dans l’univers captivant de l’audiovisuel, explorant divers horizons et affinant mon regard. En 2018, à Paris, j’ai eu l’opportunité de travailler pour la chaîne d’information Africa24, où j’ai découvert les rouages du journalisme télévisé.</p><p> Plus tard, en Bretagne, chez Tydeo, j’ai plongé dans l’univers de la communication et de la production vidéo d’entreprise, apprenant à transmettre des messages forts à travers l’image. J’ai également eu la chance de couvrir des concerts, des cérémonies et des événements sportifs, où chaque instant exigeait précision et créativité.</p><p>Chaque projet m’a permis de repousser mes limites, de perfectionner ma technique et d’explorer de nouvelles façons de raconter des histoires. Aujourd’hui, je m’efforce de capturer bien plus que des images : des émotions, des ambiances et des moments uniques qui méritent d’être immortalisés.</p><p>Mon objectif : capturer l’essence de chaque instant. Bienvenue dans mon monde, où chaque image raconte son histoire.</p>"
+  },
+  "videoData": [
+    {
+      "id": 1,
+      "titre": "Béton",
+      "lienvideo": "oHBco9ac2WA?si=fXQkj3QDECQ39Jq7",
+      "phrase": "J'ai réalisé une vidéo promotionnelle pour une entreprise de béton."
+    },
+    {
+      "id": 2,
+      "titre": "Douarnenez",
+      "lienvideo": "nwLOeUAioS8?si=hanm535jU-eNY48k",
+      "phrase": "Je fais des vidéos institutionnelles pour le marché public."
+    },
+    {
+      "id": 3,
+      "titre": "Bibus",
+      "lienvideo": "My9ac17_egc?si=EnfcoWGKYmpTswzB",
+      "phrase": "J'ai monté une série de vidéos institutionnelles pour une campagne de sensibilisation."
+    }
+  ],
+  "designData": [
+    {
+      "id": 1,
+      "affichage": true,
+      "image": "uploads/1738766318686-affiche(1).jpg",
+      "texte": "Port stratégique et point de rencontre entre terre et mer.",
+      "titre": "Design 1"
+    },
+    {
+      "id": 2,
+      "affichage": true,
+      "image": "uploads/1738766494268-affiche(2).jpg",
+      "texte": "Un port historique dédié à la pêche à la sardine.",
+      "titre": "Design 2"
+    },
+    {
+      "id": 3,
+      "affichage": true,
+      "image": "uploads/1738766499449-affiche(3).jpg",
+      "texte": "Une île paisible où la mer est omniprésente.",
+      "titre": "Design 3"
+    },
+    {
+      "id": 4,
+      "affichage": true,
+      "image": "uploads/1738766505327-affiche(4).jpg",
+      "texte": "Un centre historique riche en patrimoine médiéval.",
+      "titre": "Design 4"
+    },
+    {
+      "id": 5,
+      "affichage": true,
+      "image": "uploads/1738766512908-affiche(5).jpg",
+      "texte": "Plage sauvage et spot de surf emblématique.",
+      "titre": "Design 5"
+    },
+    {
+      "id": 6,
+      "affichage": true,
+      "image": "uploads/1738766518344-affiche(6).jpg",
+      "texte": "Archipel paradisiaque aux eaux cristallines.",
+      "titre": "Design 6"
+    },
+    {
+      "id": 7,
+      "affichage": true,
+      "image": "uploads/1738766525368-affiche(7).jpg",
+      "texte": "Charmant village au charme médiéval préservé.",
+      "titre": "Design 7"
+    },
+    {
+      "id": 8,
+      "affichage": true,
+      "image": "uploads/1738766529756-affiche(8).jpg",
+      "texte": "Ville côtière avec une vue imprenable sur la mer.",
+      "titre": "Design 8"
+    },
+    {
+      "id": 9,
+      "affichage": true,
+      "image": "uploads/1738766534117-affiche(9).jpg",
+      "texte": "Phare majestueux marquant l'entrée de la mer d'Iroise.",
+      "titre": "Design 9"
+    },
+    {
+      "id": 10,
+      "affichage": true,
+      "image": "uploads/1738766541194-affiche(10).jpg",
+      "texte": "Célèbre pour ses formations rocheuses spectaculaires.",
+      "titre": "Design 10"
+    },
+    {
+      "id": 11,
+      "affichage": true,
+      "image": "uploads/1738766545944-affiche(11).jpg",
+      "texte": "Un des points les plus sauvages et impressionnants de Bretagne.",
+      "titre": "Design 11"
+    },
+    {
+      "id": 12,
+      "affichage": true,
+      "image": "uploads/1738766551006-affiche(12).jpg",
+      "texte": "Ville historique, cœur de la culture bretonne.",
+      "titre": "Design 12"
+    },
+    {
+      "id": 13,
+      "affichage": false,
+      "image": "uploads/1738832453316-clap.png",
+      "texte": "vide",
+      "titre": "vide 1"
+    },
+    {
+      "id": 14,
+      "affichage": false,
+      "image": "uploads/1738832460041-clap.png",
+      "texte": "vide",
+      "titre": "vide 2"
+    },
+    {
+      "id": 15,
+      "affichage": false,
+      "image": "uploads/1738832465710-clap.png",
+      "texte": "vite",
+      "titre": "vide 3"
+    }
+  ],
+  "engagementData": {
+    "titre": "Surfrider Foundation Europe",
+    "texte": "Ma passion pour l'océan et les réseaux sociaux se reflète dans mon engagement en tant que responsable des réseaux sociaux pour Surfrider Fondation Finistère à ce titre, je suis chargée de la création de vidéos de presentation, de vidéos post-événements et de toutes les stories. Ci-joint un exemple de story que j'ai créé pour un evenement organisé par notre antenne.",
+    "image": [
+      {
+        "image": "uploads/1738765794195-surf1.png"
+      },
+      {
+        "image": "uploads/1738766573536-surf2.png"
+      },
+      {
+        "image": "uploads/1738766579808-surf3.png"
+      },
+      {
+        "image": "uploads/1738766586766-surf4.png"
+      }
+    ]
+  },
+  "grosTitre": {
+    "titre1": "Vidéos",
+    "titre2": "Design",
+    "titre3": "Mon Engagement",
+    "titre4": "Contactez-moi"
+  }
+}

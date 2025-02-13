@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scrollbar-color: #FFBE5C #45728E;
+  scrollbar-width: 20px;
+  -ms-overflow-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Fraunces", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: rgba(247, 172, 141);
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 4em;
+  color: #000;
+}
+
+h2 {
+  font-family: "Ranchers", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} 

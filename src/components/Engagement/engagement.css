@@ -1,0 +1,134 @@
+#engagement {
+    background-color: #45728E;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.diviser2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.diviser2 svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 69px;
+}
+.diviser2 .shape-fill2 {
+    fill: #BAD0DE;
+}
+
+.divIn svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 134px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.divOut {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.surf {
+    margin: 1em 1em 8em;
+    padding: 1em;
+    width: 50%;
+}
+.surf h1 {
+    font-size: 5em;
+    margin: 0.5em;
+    text-align: center;
+}
+.surf__card {
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
+}
+.surf__card h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0.3em;
+}
+.surf__cardGrid {
+    padding: 0.3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+}
+.surf__cardGrid p {
+    text-align: justify;
+    justify-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 80%;
+}
+.surf__cardGridImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 1em 0;
+    cursor: pointer;
+}
+.surf__cardGridImg:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+.surf__cardGridImg img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.shape-fill {
+    fill: #F7AC8D;
+}
+
+.visibilityMobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .visibilityMobile {
+        display: inline;
+    }
+    .visibilityWeb {
+        display: none;
+    }
+    .surf {
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+    .surf h1 {
+        font-size: 5em;
+        margin: 0;
+        text-align: center;
+    }
+    .surf__cardGrid {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .surf__cardGrid p {
+        width: 98%;
+    }
+}

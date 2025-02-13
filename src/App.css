@@ -1,0 +1,49 @@
+.fondSaumon {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 172, 141, 0.8))), url("./image/lin.jpg");
+    background-image: linear-gradient(rgba(247, 172, 141, 0.8)), url("./image/lin.jpg");
+    z-index: 100;
+}
+
+.fondBleu {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(69, 114, 142, 0.8))), url("image/peinture.jpg");
+    background-image: linear-gradient(rgba(69, 114, 142, 0.8)), url("image/peinture.jpg");
+    background-size: cover;
+}
+
+.card {
+    border-radius: 2vh;
+    padding: 1vh;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.24) 0px -12px 30px, rgba(0, 0, 0, 0.24) 0px 4px 6px, rgba(0, 0, 0, 0.34) 0px 12px 13px, rgba(0, 0, 0, 0.18) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.24) 0px -12px 30px, rgba(0, 0, 0, 0.24) 0px 4px 6px, rgba(0, 0, 0, 0.34) 0px 12px 13px, rgba(0, 0, 0, 0.18) 0px -3px 5px;
+}
+.card1 {
+    border: 10px solid #FFBE5C;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(160, 194, 214, 0.85))), url("image/papier.jpg");
+    background-image: linear-gradient(rgba(160, 194, 214, 0.85)), url("image/papier.jpg");
+    background-size: cover;
+    background-color: #BAD0DE;
+    color: #000;
+    font-size: smaller;
+    text-align: center;
+}
+.card2 {
+    background-color: #45728E;
+    border: 10px solid #FFBE5C;
+}
+.card3 {
+      border: 10px solid rgb(12, 59, 148);
+      background-color: rgb(221, 193, 36);
+}
+.anchor {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+.text-center {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .presDiv {
+        width: 80%;
+    }
+}

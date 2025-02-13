@@ -1,0 +1,115 @@
+#c{
+    background-color: #F7AC8D;
+    height: 99vh;
+}
+.container3 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 30rem;
+    margin: 2em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: rotate(-0.5deg);
+    transform: rotate(-0.5deg);
+}
+
+.title {
+    color: #212529;
+    font-size: 2.5rem;
+}
+
+input,
+textarea {
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    width: 19em;
+    margin: 0.5em;
+    background-color: #BAD0DE;
+    border-radius: 2rem;
+    border: none;
+    -webkit-box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+
+.form-control:focus {
+    background-color: #BAD0DE;
+    border: none;
+    -webkit-box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+
+.thick {
+    height: 3.3rem;
+    padding: 0.5rem 1.8rem;
+}
+.message {
+    height: 10rem;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #FFBE5C;
+    width: 45px;
+    height: 45px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.cta span {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #212529;
+    stroke-width: 2;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.cta:hover:before {
+    width: 100%;
+    background: #FFBE5C;
+}
+.cta:hover svg {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.cta:active {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
